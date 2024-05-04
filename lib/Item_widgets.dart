@@ -5,9 +5,7 @@ import 'package:flutter/material.dart';
 class ItemsWidget extends StatelessWidget {
   ItemsWidget({Key? key}) : super(key: key);
   List imglist = ['Latte', 'Cappucino', 'Black Coffee', 'Cold Coffee'];
-  List<String> img = [
-    // Add more image URLs as needed
-  ];
+  List<String> img = [];
 
   @override
   Widget build(BuildContext context) {
